@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 from random import randint
 
 
@@ -52,6 +53,8 @@ def run_game():
     yes_no = {
         'Y': True,
         'N': False,
+        'y': True,
+        'n': False
     }
     replay = input('Чтобы сыграть ещё раз, введи "y"; '
                    'если не хочешь продолжать игру, введи "n": ')

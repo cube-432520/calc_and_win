@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 from module import run_game
 
 INTRO = '''РАССЧИТАЙ И ПОБЕДИ!
@@ -16,11 +17,13 @@ hard — урон от 30 до 40 очков.
 ВПЕРЁД К ПОБЕДЕ!!!
 '''
 
+
 def main():
     print(INTRO)
     replay = True
     while replay:
         replay = run_game()
+
 
 if __name__ == '__main__':
     main()
